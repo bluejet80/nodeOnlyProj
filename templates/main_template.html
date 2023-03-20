@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Journal Site</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              kaushan: ["Kaushan Script", "cursive"],
+              meriweather: ["Merriweather", "sans"],
+            },
+            spacing: {
+              128: "62.5rem",
+              "1/5": "15%",
+              21: "4.5rem",
+            },
+            minHeight: {
+              50: "200px",
+            },
+            colors: {
+              bluegrey: {
+                100: "#98BECB",
+                200: "#7D9FB2",
+              },
+              greengrey: {
+                100: "#7AB58E",
+                200: "#5F896F",
+              },
+              redgrey: {
+                100: "#E0AD68",
+                200: "#A4553D",
+              },
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="min-w-128">
+    <div
+      class="h-60 w-128 bg-[url('./images/title_back4.jpg')] object-cover bg-no-repeat text-center p-4"
+    >
+      <h1 class="relative top-40 text-6xl font-kaushan">WEBSITE</h1>
+    </div>
+    <div class="w-128 p-2 bg-black">
+      <!-- container 1 -->
+      <div class="bg-greengrey-200 rounded p-2 min-h-50">
+        <div class="inline-block">
+          <p
+            class="relative top-10 text-4xl uppercase transform -rotate-90 w-20 font-kaushan"
+          >
+            Early
+          </p>
+        </div>
+        <div class="inline-grid grid-cols-3 gap-2 font-meriweather">
+          <!-- Unit -->
+          {@SECTION1@}
+          <!-- End Unit   -->
+        </div>
+      </div>
+      <!-- container 2 -->
+      <div class="bg-redgrey-200 rounded p-2 min-h-50 sm:min-w-128">
+        <div class="inline-block">
+          <p
+            class="relative top-10 text-4xl uppercase transform -rotate-90 w-20 font-kaushan"
+          >
+            Mid
+          </p>
+        </div>
+        <div class="inline-grid grid-cols-3 gap-2 font-meriweather">
+          <!-- unit -->
+          {@SECTION2@}
+          <!-- end unit -->
+        </div>
+      </div>
+      <!-- container 3 -->
+      <div class="bg-bluegrey-200 rounded p-2 min-h-50 sm:min-w-128">
+        <div class="inline-block">
+          <p
+            class="relative top-10 text-4xl uppercase transform -rotate-90 w-20 font-kaushan"
+          >
+            Later
+          </p>
+        </div>
+        <div class="inline-grid grid-cols-3 gap-2 font-meriweather">
+          <!-- unit -->
+          {@SECTION3@}
+          <!-- end unit -->
+        </div>
+      </div>
+    </div>
+    <div class="text-center w-128 space-x-8 mb-10">
+      <div class="inline-block">
+        <span class="font-extrabold">Author:</span> Jarett Young
+      </div>
+      <div class="inline-block">
+        <span class="font-extrabold">Creation Date:</span> 3/17/23
+      </div>
+    </div>
+    <!-- <script type="text/javascript" src="test.js"></script> -->
+  </body>
+</html>

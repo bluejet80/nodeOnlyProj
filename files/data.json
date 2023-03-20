@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "productName": "Pentium Computer",
+    "from": "Silicon Valley",
+    "ram": "32mb",
+    "hardDrive": "500GB",
+    "videoCard": "RTX3050",
+    "description": "This is a fast computer with a good video card. This computer is a used computer"
+  },
+  {
+    "id": 1,
+    "productName": "Macintosh Computer",
+    "from": "Silicon Valley",
+    "ram": "16mb",
+    "hardDrive": "250GB",
+    "videoCard": "OnBoard",
+    "description": "This is a Macintosh computer with an on board video card. This computer is a used computer"
+  }
+]

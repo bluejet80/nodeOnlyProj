@@ -1,0 +1,13 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "node project one",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "jarett young",
+  "license": "ISC"
+}
